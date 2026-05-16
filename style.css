@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    background: #fff8f8;
+    color: #3a2c2c;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background: white;
+    border-bottom: 1px solid#f0dada;
+}
+
+nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #b57a84;
+    font-weight: 600;
+}
+
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+    background: linear-gradient(to bottom, #ffe6ec, #fff8f8);
+}
+
+.hero h1 {
+font-size: 48px;
+color: #b57a84;
+}
+
+.btn {
+    padding: 12px 24px;
+    background: #b57a84;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+    color: #b57a84;
+}
