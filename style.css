@@ -47,11 +47,6 @@ footer {
     color: #b57a84;
 }
 
-.logo {
-    height: 80px;
-    width: auto;
-}
-
 header {
     display: flex;
     flex-direction: column;
@@ -75,6 +70,16 @@ header {
 }
 
 .logo {
-    height: 120px;
+    height: 200px;
     width: auto;
+    display: block;
+    margin: 0;
+}
+
+.welcome-text {
+    text-align: center;
+    max-width: 800px;
+    margin: 20pxauto;
+    font-size: 20px;
+    line-height:1.6;
 }
